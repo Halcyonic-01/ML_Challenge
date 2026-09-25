@@ -1,0 +1,31 @@
+{
+  "totals": {
+    "entities": 1732544,
+    "candidate_ids": 128805516,
+    "links": 5394722,
+    "empty_predictions": 123098
+  },
+  "candidate_count": {
+    "mean": 74.34473006168963,
+    "median": 75.0,
+    "max": 75,
+    "zero": 0,
+    "reduction_ratio": 0.999992542849052
+  },
+  "links_per_entity": {
+    "mean": 3.113757572679251,
+    "median": 3.0,
+    "max": 42
+  },
+  "by_country": {
+    "US:entities": 663106,
+    "US:empty": 44127,
+    "US:links": 2032635,
+    "France:entities": 259452,
+    "France:empty": 11841,
+    "France:links": 1007063,
+    "India:entities": 809986,
+    "India:empty": 67130,
+    "India:links": 2355024
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "test_source1.tsv": {
+    "rows": 1732544,
+    "country": {
+      "India": 809986,
+      "US": 663106,
+      "France": 259452
+    },
+    "missing": {
+      "business_name": 0.0,
+      "business_address": 0.0,
+      "country": 0.0
+    },
+    "avg_name_length": 23.84,
+    "avg_address_length": 57.21,
+    "match_counts": {},
+    "source_counts": {},
+    "unicode_examples": [
+      "Maison de Santé Generation",
+      "École primaire Sainte Pierre",
+      "Établissements Demployeurs SARL",
+      "Lège-Cap-Ferret Centre",
+      "Nature & Frères SARL",
+      "Page & Frères SARL",
+      "Familles & Frères SARL",
+      "Equestre & Frères SCI",
+      "Établissements So",
+      "El Lycée SAS"
+    ],
+    "samples": [
+      {
+        "entity_id": "S1-714132312",
+        "business_name": "Zephay Labs Inc",
+        "business_address": "2621 Cotten Road, Tyler, TX",
+        "country": "US"
+      },
+      {
+        "entity_id": "S1-106407869",
+        "business_name": "Vision Partners Corp",
+        "business_address": "IA, Iowa City, 1064 Newton Rd, Unit 11",
+        "country": "US"
+      },
+      {
+        "entity_id": "S1-156285671",
+        "business_name": "<< Team Ecole",
+        "business_address": "175 Boulevard du Président Franklin Roosevelt, Bordeaux, Nouvelle-Aquitaine",
+        "country": "France"
+      },
+      {
+        "entity_id": "S1-689823050",
+        "business_name": "Red Perfect Trading",
+        "business_address": "Mirzapur, Ews 12, Uttar Pradesh, Mirzapursadar, Awas Vikas Colony",
+        "country": "India"
+      },
+      {
+        "entity_id": "S1-921369899",
+        "business_name": "ZNB Club SARL",
+        "business_address": "Nouvelle-Aquitaine, La Teste-de-Buch, 5 bis Rue Pierre Dignac",
+        "country": "France"
+      }
+    ]
+  },
+  "test_source2.tsv": {
+    "rows": 4887273,
+    "country": {
+      "India": 2312565,
+      "US": 1871330,
+      "France": 703378
+    },
+    "missing": {
+      "business_name": 0.0,
+      "business_address": 0.02648,
+      "country": 0.0
+    },
+    "avg_name_length": 25.7,
+    "avg_address_length": 50.41,
+    "match_counts": {},
+    "source_counts": {},
+    "unicode_examples": [
+      "SCI Ptit Àmicale",
+      "కృష్ణా ఇంపెక్స్ లిమిటెడ్",
+      "ૐ Foundation પ્રાઇવેટ લિમિટેડ",
+      "ਸਕਾਈ ਅਰਿਹੰਤ ਗਲੋਬਲ ਪ੍ਰਾ. ਲਿ.",
+      "OZT ÀMICALE SAS",
+      "Pártnérs Manpower Nagiya",
+      "Association du Pàrenthese",
+      "Production Thê Jeunes",
+      "ইনোভেটিভ প্রোডাক্টস রেস্টুরেন্ট লিমিটেড",
+      "Sebago Héalth"
+    ],
+    "samples": [
+      {
+        "entity_id": "S2-192345572",
+        "business_name": "Brahma Infosoft",
+        "business_address": "COIMATORE COLONY, HUNSUR TQMYSORE DIST., Karnataka",
+        "country": "India"
+      },
+      {
+        "entity_id": "S2-566025912",
+        "business_name": "Marina Ecole France Sarl",
+        "business_address": "63 R. DE DIEPPE, LILLE, Hauts-de-France",
+        "country": "France"
+      },
+      {
+        "entity_id": "S2-158121477",
+        "business_name": "SCI Ptit Àmicale",
+        "business_address": "18 RUE JEN ZAY, Dunkerque, Nord",
+        "country": "France"
+      },
+      {
+        "entity_id": "S2-89663826",
+        "business_name": "Apex Summit",
+        "business_address": "67 KENTUCKY ST, SALYERSVILLE, KY",
+        "country": "US"
+      },
+      {
+        "entity_id": "S2-884102769",
+        "business_name": "Fresh Truist",
+        "business_address": "8264 FILLY COURT, ROANOKE COUNTY, VA",
+        "country": "US"
+      }
+    ]
+  },
+  "test_source3.tsv": {
+    "rows": 5082316,
+    "country": {
+      "India": 2405000,
+      "US": 1945701,
+      "France": 731615
+    },
+    "missing": {
+      "business_name": 0.0,
+      "business_address": 0.02678,
+      "country": 0.0
+    },
+    "avg_name_length": 25.66,
+    "avg_address_length": 48.74,
+    "match_counts": {},
+    "source_counts": {},
+    "unicode_examples": [
+      "मॉडर्न फाइनेंस",
+      "ஈஸ்டர்ன் கன்சல்டன்சி பிரைவேட் லிமிடெட்",
+      "Sun पावर Provision",
+      "Engages Àrt Pharmacie SCI",
+      "Europ & Frères Distribution S.A.",
+      "ಡಿಜಿಟಲ್ ಬಿಲ್ಡರ್ಸ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+      "Fédération de Velo SAS",
+      "Gill and Búrke Aspac Inc",
+      "शक्ति इम्पेक्स प्राइवेट लिमिटेड",
+      "Deleves Elémentaire"
+    ],
+    "samples": [
+      {
+        "entity_id": "S3-462677478",
+        "business_name": "मॉडर्न फाइनेंस",
+        "business_address": "No 10 Enkay Square, 448A, Udyog Vihar Phase V, Gurugram, Gurgaon, HR",
+        "country": "India"
+      },
+      {
+        "entity_id": "S3-374810425",
+        "business_name": "Shri Sai Infratech Co",
+        "business_address": "3/115, East Delhi, DL",
+        "country": "India"
+      },
+      {
+        "entity_id": "S3-198586129",
+        "business_name": "Fractales Amis Groupe S.A.S",
+        "business_address": "23 Rue Icmre, La Teste-de-buch, Gironde",
+        "country": "France"
+      },
+      {
+        "entity_id": "S3-10300249",
+        "business_name": "Shri Supreme Consulting Private  (Limited)",
+        "business_address": "H.no 910 A 3503, Mumbai, महाराष्ट्र",
+        "country": "India"
+      },
+      {
+        "entity_id": "S3-604980231",
+        "business_name": "Prime Realty Ventures Public Limited",
+        "business_address": "G.t. Karnal Road, Industrial Area, New Delhi, null, A-68, दिल्ली",
+        "country": "India"
+      }
+    ]
+  },
+  "train_ground_truth.tsv": {
+    "rows": 2206821,
+    "country": {},
+    "missing": {},
+    "avg_name_length": null,
+    "avg_address_length": null,
+    "match_counts": {
+      "3": 530841,
+      "4": 484115,
+      "2": 375212,
+      "5": 321957,
+      "6": 164868,
+      "0": 123247,
+      "1": 119157,
+      "7": 63968,
+      "8": 18680,
+      "9": 4205,
+      "10": 534,
+      "11": 37
+    },
+    "source_counts": {
+      "S2": 3693619,
+      "S3": 3944746
+    },
+    "unicode_examples": [],
+    "samples": []
+  },
+  "train_source1.tsv": {
+    "rows": 2206821,
+    "country": {
+      "US": 1323633,
+      "India": 883188
+    },
+    "missing": {
+      "business_name": 0.0,
+      "business_address": 0.0,
+      "country": 0.0
+    },
+    "avg_name_length": 24.03,
+    "avg_address_length": 52.07,
+    "match_counts": {},
+    "source_counts": {},
+    "unicode_examples": [],
+    "samples": [
+      {
+        "entity_id": "S1-925783039",
+        "business_name": "Orelee's Barbershop",
+        "business_address": "1795 Westchester Drive, High Point, NC",
+        "country": "US"
+      },
+      {
+        "entity_id": "S1-773889195",
+        "business_name": "Prime Money",
+        "business_address": "17560 Ellis Road, Tahlequah, OK",
+        "country": "US"
+      },
+      {
+        "entity_id": "S1-377745466",
+        "business_name": "B+ Retail Inc",
+        "business_address": "1712 Montebello Avenue, Phoenix, AZ",
+        "country": "US"
+      },
+      {
+        "entity_id": "S1-133037285",
+        "business_name": "Christ Chapel",
+        "business_address": "2100 Cameron Drive, Unit APARTMENT G, Dundalk, MD",
+        "country": "US"
+      },
+      {
+        "entity_id": "S1-755362802",
+        "business_name": "Prabhav Business Center",
+        "business_address": "797, Lake Town Block A, Kolkata, Howrah, West Bengal",
+        "country": "India"
+      }
+    ]
+  },
+  "train_source2.tsv": {
+    "rows": 5034616,
+    "country": {
+      "US": 3016817,
+      "India": 2017799
+    },
+    "missing": {
+      "business_name": 0.0,
+      "business_address": 0.03356,
+      "country": 0.0
+    },
+    "avg_name_length": 25.1,
+    "avg_address_length": 46.23,
+    "match_counts": {},
+    "source_counts": {},
+    "unicode_examples": [
+      "राम मार्केटिंग प्राइवेट लिमिटेड",
+      "आदित्य प्रॉपर्टीज एलएलपी",
+      "सन कंस्ट्रक्शंस प्राइवेट लिमिटेड",
+      "रियल मॉडर्न फूड लिमिटेड",
+      "குளோபல் பிசினஸ் பிரைவேட் லிமிடெட்",
+      "Animal Welfare Nétwork",
+      "Private Ambernath Sólar Limited",
+      "શક્તિ અર્બન પ્રોડક્ટ્સ પ્રાઇવેટ લિમિટેડ",
+      "अल्फा अल टेक्नोलॉजीज प्राइवेट लिमिटेड",
+      "ग्लोबल इन्वेस्टमेंट प्रा. लि."
+    ],
+    "samples": [
+      {
+        "entity_id": "S2-166376419",
+        "business_name": "राम मार्केटिंग प्राइवेट लिमिटेड",
+        "business_address": "KH NO. -570/13, NEW DELHI, WEST DELHI, Delhi",
+        "country": "India"
+      },
+      {
+        "entity_id": "S2-764573417",
+        "business_name": "-- Holloway Peak Inc Seafood",
+        "business_address": "105 ELM ST, MORGANTON, NC",
+        "country": "US"
+      },
+      {
+        "entity_id": "S2-639257739",
+        "business_name": "आदित्य प्रॉपर्टीज एलएलपी",
+        "business_address": "G-3/571, GULMOHAR COLONY, BHOPAL, Madhya Pradesh",
+        "country": "India"
+      },
+      {
+        "entity_id": "S2-163963287",
+        "business_name": "Summit Inc",
+        "business_address": "GREENSBORO, NC, 19 1/2 STARDUST TRAIL",
+        "country": "US"
+      },
+      {
+        "entity_id": "S2-49942811",
+        "business_name": "Delta Tetlecommunication Inc",
+        "business_address": "914 PIERPONT AVE, CLEVELAND, OH",
+        "country": "US"
+      }
+    ]
+  },
+  "train_source3.tsv": {
+    "rows": 5285603,
+    "country": {
+      "US": 3170056,
+      "India": 2115547
+    },
+    "missing": {
+      "business_name": 0.0,
+      "business_address": 0.03328,
+      "country": 0.0
+    },
+    "avg_name_length": 25.2,
+    "avg_address_length": 46.71,
+    "match_counts": {},
+    "source_counts": {},
+    "unicode_examples": [
+      "LLC Moncada Léarning Center",
+      "Béque",
+      "அரிஹந்த் Foundation Private Limited",
+      "Cardiology Heartland Cáre Associates #98825",
+      "സിൽവർ കൺസൾട്ടൻസി പ്രൈവറ്റ് ലിമിറ്റഡ്",
+      "ब्लू टेक्नोलॉजीज",
+      "గుజరాత్ Logistics లిమిటెడ్",
+      "Secure Secure Cárolina",
+      "Royal Mémorial Trust Holdings",
+      "Chavarin Property óf Queensbury LLC"
+    ],
+    "samples": [
+      {
+        "entity_id": "S3-202863386",
+        "business_name": "wilfordhancock.com",
+        "business_address": "Mack Rd, Haltom City, Texas",
+        "country": "US"
+      },
+      {
+        "entity_id": "S3-859268022",
+        "business_name": "International South Consultants Private Ltd",
+        "business_address": "",
+        "country": "India"
+      },
+      {
+        "entity_id": "S3-22467283",
+        "business_name": "LLC Moncada Léarning Center",
+        "business_address": "5780 Fawn Ct, Fort Worth, Texas",
+        "country": "US"
+      },
+      {
+        "entity_id": "S3-671162755",
+        "business_name": "Moyna's Coffee",
+        "business_address": "1 Ivanhoe Ave, PO Box 6009, Cincinnati, Ohio",
+        "country": "US"
+      },
+      {
+        "entity_id": "S3-960981775",
+        "business_name": "Pvt. EFS Print Ventures Ltd.",
+        "business_address": "Door No 183, 41St Cross, 22Nd Main 9Th Block Jayanagar, Bengaluru Urban, Bangalore, ಕರ್ನಾಟಕ",
+        "country": "India"
+      }
+    ]
+  }
+}

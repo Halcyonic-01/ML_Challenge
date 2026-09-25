@@ -1,0 +1,74 @@
+{
+  "test_source1.tsv": {
+    "sample_rows": 100000,
+    "duplicate_raw_name_pct": 9.57,
+    "duplicate_normalized_name_pct": 9.89,
+    "duplicate_raw_address_pct": 0.34,
+    "duplicate_normalized_address_pct": 0.36,
+    "address_has_digit_pct": 95.9,
+    "name_has_digit_pct": 1.18,
+    "non_ascii_name_pct": 2.32,
+    "non_ascii_address_pct": 4.29,
+    "address_numeric_tokens_mean": 1.55
+  },
+  "test_source2.tsv": {
+    "sample_rows": 100000,
+    "duplicate_raw_name_pct": 1.18,
+    "duplicate_normalized_name_pct": 1.83,
+    "duplicate_raw_address_pct": 3.02,
+    "duplicate_normalized_address_pct": 3.07,
+    "address_has_digit_pct": 92.66,
+    "name_has_digit_pct": 3.81,
+    "non_ascii_name_pct": 19.24,
+    "non_ascii_address_pct": 14.84,
+    "address_numeric_tokens_mean": 1.54
+  },
+  "test_source3.tsv": {
+    "sample_rows": 100000,
+    "duplicate_raw_name_pct": 1.1,
+    "duplicate_normalized_name_pct": 1.75,
+    "duplicate_raw_address_pct": 2.94,
+    "duplicate_normalized_address_pct": 2.97,
+    "address_has_digit_pct": 92.33,
+    "name_has_digit_pct": 4.06,
+    "non_ascii_name_pct": 14.49,
+    "non_ascii_address_pct": 14.32,
+    "address_numeric_tokens_mean": 1.49
+  },
+  "train_source1.tsv": {
+    "sample_rows": 100000,
+    "duplicate_raw_name_pct": 9.6,
+    "duplicate_normalized_name_pct": 10.12,
+    "duplicate_raw_address_pct": 0.29,
+    "duplicate_normalized_address_pct": 0.29,
+    "address_has_digit_pct": 96.55,
+    "name_has_digit_pct": 1.59,
+    "non_ascii_name_pct": 0.0,
+    "non_ascii_address_pct": 0.02,
+    "address_numeric_tokens_mean": 1.55
+  },
+  "train_source2.tsv": {
+    "sample_rows": 100000,
+    "duplicate_raw_name_pct": 1.27,
+    "duplicate_normalized_name_pct": 2.38,
+    "duplicate_raw_address_pct": 3.62,
+    "duplicate_normalized_address_pct": 3.65,
+    "address_has_digit_pct": 90.67,
+    "name_has_digit_pct": 5.1,
+    "non_ascii_name_pct": 15.06,
+    "non_ascii_address_pct": 9.54,
+    "address_numeric_tokens_mean": 1.47
+  },
+  "train_source3.tsv": {
+    "sample_rows": 100000,
+    "duplicate_raw_name_pct": 1.17,
+    "duplicate_normalized_name_pct": 2.15,
+    "duplicate_raw_address_pct": 3.56,
+    "duplicate_normalized_address_pct": 3.57,
+    "address_has_digit_pct": 90.66,
+    "name_has_digit_pct": 5.11,
+    "non_ascii_name_pct": 11.66,
+    "non_ascii_address_pct": 9.14,
+    "address_numeric_tokens_mean": 1.47
+  }
+}
