@@ -6,12 +6,13 @@ sys.path.insert(0,str(Path(__file__).resolve().parent/'src'))
 from build_index import build
 from train_model import train
 from predict import predict
+from resolve_conflicts import resolve
 from validate_outputs import validate_streaming
 from extra_experiments import blocking_study,run_ablations,second_holdout,singleton_rules
 
 def main():
     ap=argparse.ArgumentParser()
-    ap.add_argument('stage',choices=['all','train','predict','validate'])
+    ap.add_argument('stage',choices=['all','train','predict','resolve','validate'])
     ap.add_argument('--data-root',required=True,type=Path,help='Path containing train/, test/, and sibling utils/')
     ap.add_argument('--cache-dir',type=Path,default=Path(__file__).resolve().parent/'cache')
     ap.add_argument('--output-dir',type=Path,default=Path(__file__).resolve().parent/'output')
@@ -36,6 +37,8 @@ def main():
     if a.stage in ('all','predict'):
         build(a.data_root,'test',a.cache_dir/'test_targets.sqlite')
         predict(a.data_root,a.cache_dir/'test_targets.sqlite',root/'models',a.output_dir)
+    if a.stage in ('all','predict','resolve'):
+        resolve(a.output_dir/'matching_results.tsv',a.data_root,root/'models',a.output_dir/'matching_results.tsv',root/'reports'/'conflict_resolution.json')
     if a.stage in ('all','validate'):
         validate_streaming(a.data_root,a.output_dir)
         # The supplied validator loads all candidate IDs into RAM. The streaming
